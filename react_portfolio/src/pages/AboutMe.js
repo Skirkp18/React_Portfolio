@@ -10,7 +10,7 @@ import InfoBox from "../components/InfoBox/InfoBox"
 function AboutMe() {
     return (<Container>
         <Row>
-            <Col md={9}>
+            <Col md={8}>
             <Container>
                 <Row>
                     <Col md>
@@ -18,16 +18,19 @@ function AboutMe() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={6}>
+                    <Col md={4}>
+                        <h1>Education</h1>
+                    </Col>
+                    <Col md={4}>
                         <h1>Skills</h1>
                     </Col>
-                    <Col md={6}>
+                    <Col md={4}>
                         <h1>Contact Info!</h1>
                     </Col>
                 </Row>
             </Container>
             </Col>
-            <Col md={3}>
+            <Col md={4}>
             <Container>
                 <Row>
                     <Col md>
