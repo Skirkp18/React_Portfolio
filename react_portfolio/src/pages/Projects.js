@@ -1,8 +1,10 @@
 import React from "react";
+import ProjectsCard from "../components/ProjectsCard/ProjectsCard"
+const projectsObj = [{name: "projectOne"}, {name: "projectTwo"}, {name: "ProjectThree"}]
 
 function Projets() {
     return (<div>
-        <h1>Projects Page!</h1>
+        <ProjectsCard projectsObj={projectsObj} />
     </div>);
 };
 
