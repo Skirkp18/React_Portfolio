@@ -1,14 +1,12 @@
 import React from "react";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "./style.css"
 
 function ResumeBtn() {
-    return(<Card>
-        <Card.Header>Click Here For My Resume!</Card.Header>
-        <Button variant="success">Resume</Button>
+    return(<Card style={{backgroundColor: "#f1faee"}}>
+        <Card.Header className={"listTitle"} style={{textAlign: "center"}}>Click Here For My Resume!</Card.Header>
+        <Button href="https://drive.google.com/file/d/1p1myO5OfoN0CGvy7reQBM4dzcWoBR6kB/view" style={{height: "50px"}} variant="success"><h4>My Resume</h4></Button>
     </Card>);
 };
 
