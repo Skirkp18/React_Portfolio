@@ -4,7 +4,7 @@ import ListGroup from "react-bootstrap/ListGroup"
 import "./style.css"
 
 function ExpirenceAndAchievementCard() {
-    return (<Card style={{ width: "100%", height: "600px", backgroundColor: "#f1faee", border: "0px" }}>
+    return (<Card style={{ backgroundColor: "#f1faee", border: "0px" }} >
     <Card.Header className={"listTitle"}>Expirence:</Card.Header>
     <ListGroup variant="flush">
       <ListGroup.Item style={{ backgroundColor: "#f1faee" }}>Specalist - Apple Inc. (Current)</ListGroup.Item>

@@ -8,18 +8,10 @@ import ExpirenceAndAchievementCard from "../ExpirenceAndAchievementsCard/Expiren
 import "./style.css"
 
 function AccoladesCard() {
-    return( <Card id={"detailsCard"}>
-    <Row>
-<Col md={4}>
+    return( <Card>
     <EducationCard />
-</Col>
-<Col md={4}>
     <SkillsCard />
-</Col>
-<Col md={4}>
     <ExpirenceAndAchievementCard />
-</Col>
-</Row>
 </Card>);
 };
 
