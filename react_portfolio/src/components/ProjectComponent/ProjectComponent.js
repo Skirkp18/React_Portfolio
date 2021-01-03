@@ -12,7 +12,7 @@ function ProjectsComponent(props) {
     }
     const imageNumber = props.project.imageNumber;
     const imagePath = "/img/appScreenshot" + imageNumber + ".jpeg";
-        return (<Col lg={4} style={{marginTop: "20px"}}>
+        return (<Col md={4} style={{marginTop: "20px"}}>
         <Card>
             <Card.Header className={"projectTitle"}><h2 className={"projectTitleTxt"}>{projectName}</h2></Card.Header>
             <img src={process.env.PUBLIC_URL + imagePath} alt="Project Screenshot" className={"projectImg"} />
