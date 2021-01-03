@@ -7,12 +7,12 @@ import "./style.css"
 function NavBar() {
     return(
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="React_Portfolio/#/">Sean Kirkpatrick</Navbar.Brand>
+  <Navbar.Brand href="https://skirkp18.github.io/React_Portfolio/#/">Sean Kirkpatrick</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav id={"NavLinks"}>
-      <Nav.Link href="React_Portfolio/#/">About Me</Nav.Link>
-      <Nav.Link href="React_Portfolio/#/projects">
+      <Nav.Link href="https://skirkp18.github.io/React_Portfolio/#/">About Me</Nav.Link>
+      <Nav.Link href="https://skirkp18.github.io/React_Portfolio/#/projects">
         Projects
       </Nav.Link>
     </Nav>
