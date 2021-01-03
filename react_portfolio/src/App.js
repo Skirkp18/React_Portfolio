@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Wrapper from "./components/Wrapper"
 import NavBar from "./components/NavBar/NavBar"
 import AboutMe from "./pages/AboutMe"
@@ -8,12 +8,14 @@ import Footer from "./components/Footer"
 
 function App() {
   return (    
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <div>
       <NavBar />
       <Wrapper>
+      <Switch>
         <Route exact path="/" component={AboutMe} />
         <Route exact path="/projects" component={Projects} />
+        </Switch>
       </Wrapper>
       <Footer />
     </div>
