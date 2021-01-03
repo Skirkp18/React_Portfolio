@@ -1,5 +1,30 @@
 #projectsCard {
     margin: auto;
     margin-top: 10px;
-    width: 800px;
+    width: 1000px;
+}
+
+#projectsCardHeader {
+    width: 100%;
+}
+
+.projectImg {
+    margin: auto;
+    margin-top: 20px;
+    height: 150px;
+    width: 200px;
+}
+
+.projectTitle {
+    height: 150px;
+    text-align: center;
+    
+}
+
+.projectTitleTxt {
+    margin-top: auto;
+}
+
+.bodyTxt {
+    margin: auto;
 }
